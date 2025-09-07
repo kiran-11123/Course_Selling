@@ -111,7 +111,7 @@ Admin_Router.post("/create_course" ,async (req,res)=>{
         return res.status(200).json({
 
            message:"Course Created and post Succcessfully",
-           
+
 
         })
 
@@ -128,6 +128,8 @@ Admin_Router.post("/create_course" ,async (req,res)=>{
 Admin_Router.post("/update_course" ,(req,res)=>{
        
     try{
+
+        
 
     }
     catch(er){
